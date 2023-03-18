@@ -1,0 +1,159 @@
+body
+{
+ font-family: 'Lato', sans-serif;
+ padding: 0;
+ margin: 0;
+}
+nav
+{
+    background-color: yellow;
+    color: white;
+    padding: 20px 50px;
+    /*width: 400vw;*/
+}
+.navTop
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.search
+{
+    display: flex;
+    align-items: center ;
+    background-color:grey;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchInput
+{
+    border: none;
+    background-color: transparent;
+}
+.searchInput::placeholder
+{
+    color: lightgrey;
+}
+.limitedoffer
+{
+    font-size: 20 px;
+    color:black;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    font-weight: 1000;
+}
+.navBottom
+{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.menu
+{
+    margin-right: 50px;
+    cursor: pointer;
+    color: royalblue;
+    font-weight: 1000;
+    position: relative;
+}
+
+.slider
+{
+    background: url(https://cdn.wallpapersafari.com/68/13/C4RHKl.jpg);
+    /*clip-path: polygon(49% 1%, 49% 1%49% 1%, 47% 98%, 47% 98%, 47% 98%, 99% 99%, 99% 99%, 99% 99%, 99% 1%, 99% 1%, 99% 1%);*/
+/*width: 406.70vw;*/
+    overflow: hidden;
+
+}
+
+.sliderImg
+{
+    z-index: 0.5;
+}
+
+.sliderwrapper
+{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+}
+
+.sliderItem
+{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.SlideTitle
+{
+    position: absolute;
+    top: 10%;
+    right: 0%;
+    color: cyan;
+    font-size: 40px;
+    font-weight: 300;
+    z-index: 1  ;
+}
+.SliderPrice
+{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    z-index: 1;
+}
+
+.BuyButton
+{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    background-color:red;
+    cursor: pointer;
+}
+
+.BuyButton:hover
+{
+    background-color: white;
+    color:cyan;
+}
+
+.sliderItem:nth-child(1) .SliderPrice
+{
+    background-color: black;
+    color: cornflowerblue;
+}
+
+.sliderItem:nth-child(2) .SliderPrice
+{
+    background-color: black;
+    color: cornflowerblue;
+}
+.sliderItem:nth-child(3) .SliderPrice
+{
+    background-color: black;
+    color: cornflowerblue;
+}.sliderItem:nth-child(4) .SliderPrice
+{
+    background-color: black;
+    color: cornflowerblue;
+}
+.sliderItem:nth-child(5) .SliderPrice
+{
+    background-color: black;
+    color: cornflowerblue;
+}
+
+
